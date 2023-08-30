@@ -2,8 +2,8 @@ import openai
 
 
 
-def ditismijnfunctie(stad):
-    openai.api_key = 'xxx'
+def ditismijnfunctie(key, stad):
+    openai.api_key = key
 
 
     prompt = stad

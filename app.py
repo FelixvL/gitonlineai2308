@@ -10,7 +10,7 @@ def hello_world():
 
     return "<p>Hello, World!</p>"
 
-@app.route("/tweede/<destad>")
-def hello_world2(destad):
+@app.route("/tweede/<key>/<destad>")
+def hello_world2(key,destad):
 
-    return felixbestand.ditismijnfunctie(destad)
+    return felixbestand.ditismijnfunctie(key,destad)
